@@ -1,0 +1,93 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "categoryname": "Electronics",
+          "subcategory": "Mi"
+        }
+      ],
+      "metaData": {
+        "author": [
+          "Satish Garnayak"
+        ],
+        "description": "Add to cart product",
+        "groups": [
+          "SMOKE"
+        ],
+        "key": "mobile",
+        "lineNo": 16.0,
+        "name": "Add product to cart from flipkart using datadriven",
+        "referece": "scenarios/flipkart.bdd",
+        "sign": "scenarios.flipkart.bdd.Add product to cart from flipkart using datadriven( java.util.Map)[pri:1001, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]"
+      },
+      "dependsOn": [],
+      "startTime": 1501669834808,
+      "duration": 64,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "categoryname": "Electronics",
+          "subcategory": "Samsung"
+        }
+      ],
+      "metaData": {
+        "author": [
+          "Satish Garnayak"
+        ],
+        "description": "Add to cart product",
+        "groups": [
+          "SMOKE"
+        ],
+        "key": "mobile",
+        "lineNo": 16.0,
+        "name": "Add product to cart from flipkart using datadriven",
+        "referece": "scenarios/flipkart.bdd",
+        "resultFileName": "Add product to cart from flipkart using datadrivenkertdEjSUo",
+        "sign": "scenarios.flipkart.bdd.Add product to cart from flipkart using datadriven( java.util.Map)[pri:1001, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]"
+      },
+      "dependsOn": [],
+      "startTime": 1501669834956,
+      "duration": 76,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 3,
+      "type": "test",
+      "args": [
+        {
+          "categoryname": "Electronics",
+          "subcategory": "Lenovo"
+        }
+      ],
+      "metaData": {
+        "author": [
+          "Satish Garnayak"
+        ],
+        "description": "Add to cart product",
+        "groups": [
+          "SMOKE"
+        ],
+        "key": "mobile",
+        "lineNo": 16,
+        "name": "Add product to cart from flipkart using datadriven",
+        "referece": "scenarios/flipkart.bdd",
+        "resultFileName": "Add product to cart from flipkart using datadrivenFYuqgUaoFZ",
+        "sign": "scenarios.flipkart.bdd.Add product to cart from flipkart using datadriven( java.util.Map)[pri:1001, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]"
+      },
+      "dependsOn": [],
+      "startTime": 1501669835111,
+      "duration": 49,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

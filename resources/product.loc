@@ -1,0 +1,5 @@
+productpage.price.lst = {\"locator\":\"css=._2rQ-NK\",\"desc\":\"product price\"}
+productpage.pricelowtohigh.lnk = {\"locator\":\"css=ul._3fPYHw :nth-child(2)\",\"desc\":\"product price low to hgh\"}
+productpage.pricehightolow.lnk = {\"locator\":\"css=ul._3fPYHw :nth-child(3)\",\"desc\":\"product price high to low\"}
+productpage.productname.lst = {\"locator\":\"css=._3wU53n\",\"desc\":\"product name\"}
+productpage.product.lst = {\"locator\":\"css=._1UoZlX\",\"desc\":\"list of product\"}

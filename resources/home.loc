@@ -1,0 +1,2 @@
+homepage.categoryname.lnk = {\"locator\":\"css=a[title='%s']\",\"desc\":\"menu home page\"}
+homepage.subcategory.lnk = {\"locator\":\"css=a[title='%s']\",\"desc\":\"subcategory\"}

@@ -1,0 +1,24 @@
+
+SCENARIO: Add Apple product to cart from flipkart
+META-DATA: {"description":"Add to cart apple product","author":["Satish Garnayak"],"groups":["SMOKE"]}
+	
+	Given user launches flipkart
+	When user select 'Apple' from 'Electronics' section
+	Then user verifies searchresult page
+	When user select 'iPad' in searchresult page
+	Then user able to see list of product name and price in console
+	And user select the product with lowest price
+	Then verify user is on product detail page
+	And user taps on addtocart
+	Then user verifies the product added to cart
+END
+
+SCENARIO: Add product to cart from flipkart using datadriven
+META-DATA: {"description":"Add to cart product","author":["Satish Garnayak"],"groups":["SMOKE"],"key":"mobile"}
+	
+	Given user launches flipkart
+	When user select '${subcategory}' from '${categoryname}' section
+	When user select the product with highest price
+	And user taps on addtocart
+	Then user verifies the product added to cart
+END

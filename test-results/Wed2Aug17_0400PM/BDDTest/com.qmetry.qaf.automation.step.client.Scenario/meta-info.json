@@ -1,0 +1,27 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "author": [
+          "Satish Garnayak"
+        ],
+        "description": "Add to cart apple product",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 2,
+        "name": "Add Apple product to cart from flipkart",
+        "referece": "scenarios/flipkart.bdd",
+        "sign": "scenarios.flipkart.bdd.Add Apple product to cart from flipkart()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1501669828959,
+      "duration": 5748,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

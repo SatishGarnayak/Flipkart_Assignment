@@ -1,0 +1,2 @@
+addtocartpage.addtocart.btn = {\"locator\":\"css=._2MWPVK\",\"desc\":\"addtocart button\"}
+addtocartpage.productname.lbl = {\"locator\":\"xpath=//a[@class='_325-ji _3ROAwx']\",\"desc\":\"product name\"}
